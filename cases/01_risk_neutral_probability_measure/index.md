@@ -71,7 +71,7 @@ $$
 
 That is, any change in value resulting from a variation in the number of shares held in the stock or the bond must offset each other. In other words, changes in $V(t)$ arise solely from changes in the values of the stock and the bond. 
 
-Now let $\\{ \theta(t) \\}\_{t ge 0}$ be the stochastic process
+Now let $\\{ \theta(t) \\}\_{t \ge 0}$ be the stochastic process
 
 $$
 \theta(t) = \frac{\mu(t) - R(t)}{\sigma(t)} \qquad (1.5)
