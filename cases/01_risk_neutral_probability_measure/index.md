@@ -3,7 +3,9 @@ title: Risk Neutral Probability Model
 layout: default
 ---
 
-# 1. Theory
+# Martingales and Stochastic Processes
+
+## 1. Theory
 The central concept required for our analysis is the martingale. The precise definition is the following:
 
 **Definition 1 (Martingale).**  
