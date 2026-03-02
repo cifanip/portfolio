@@ -23,6 +23,10 @@ for all $t \ge 0$. From this defintion is clear that the process $M(t)$, conditi
 ### Novikov's condition
 Let $\\{ \theta(t) \\}\_{t \ge 0} \in \mathcal{C}^0[\mathcal{F}(t)]$ satisfy
 
+$$
+\mathbb{E}[\exp \left( 1\2 \int_0^T \theta(t)^2 dtright)]< \infty, \qquad \text{for all } T>0 
+$$
+
 ### Girsanov's theorem
 
 ### Arbitrage-free market
