@@ -3,8 +3,8 @@ The central concept required for our analysis is the martingale. he precise defi
 
 **Definition 3.8 (Martingale).** A stochastic process $\{M(t)\}_{t\ge 0}$ is called a **martingale**
 with respect to the filtration $\{\mathcal{F}_t\}_{t\ge 0}$ if it is adapted to
-$\{\mathcal{F}_t\}_{t\ge 0}$, $M(t)\in L^1(\Omega)$ for all $t\ge 0$, and
+$\{\mathcal{F}_t}_{t\ge 0}$, $M(t)\in L^1(\Omega)$ for all $t\ge 0$, and
 $$
-\mathbb{E}\!\left[M(t)\mid \mathcal{F}_s\right] = M(s), \qquad 0 \le s \le t,
+\mathbb{E}\!\left[M(t)\mid \mathcal{F}_s\right] = M(s), \qquad 0 \le s \le t, \tag{1}
 $$
 for all $t\ge 0$.
