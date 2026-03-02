@@ -2,5 +2,3 @@ title: Paolo Cifani
 theme: jekyll-theme-minimal
 
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
