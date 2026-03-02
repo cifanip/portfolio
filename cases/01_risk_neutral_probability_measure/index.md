@@ -1,9 +1,9 @@
 ---
-title: Risk Neutral Probability Model
+title: Risk Neutral Probability Measure
 layout: default
 ---
 
-# Martingales and Stochastic Processes
+# Risk-Neutral Probability Measure
 
 ## 1. Theory
 The central concept required for our analysis is the martingale. The precise definition is the following:
