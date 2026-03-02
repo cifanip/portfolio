@@ -77,5 +77,11 @@ $$
 \theta(t) = \frac{\mu(t) - R(t)}{\sigma(t)} \qquad (1.5)
 $$
 
-and $\\{ Z(t) \\}\_{t \ge 0}$ defined as in (1.2). 
+and $\\{ Z(t) \\}\_{t \ge 0}$ defined as in (1.2), and the probability measure
+
+$$
+\widetilde{\mathbb{P}}(A) = E[Z(T) \mathbb{I}_A], \qquad A \in \mathcal{F}
+$$
+
+is a probability equivalent to $\mathbb{P}$. 
 
