@@ -33,7 +33,7 @@ $$
 Z(t) = \exp \left( - \int_0^t \theta(s) dW(s) = \frac{1}{2} \int_0^t \theta(s)^2 ds \right) \qquad (1.1)
 $$
 
-is a martingale relative to the filtration $\\{ \mathcal{F}(t)\_{t ge 0} \\}$. This can be readly verified by using Ito's lemma. 
+is a martingale relative to the filtration $\\{ \mathcal{F}(t)\_{t ge 0} \\}$. 
 
 ### Girsanov's theorem
 
