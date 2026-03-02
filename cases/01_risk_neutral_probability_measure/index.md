@@ -95,4 +95,11 @@ $$
 
 If $\\{ h\_{S}(t),h\_{B}(t) \\}\_{t \ge 0}$ is a self-financing portfolio, then $\\{ h\_{S}(t),h\_{B}(t) \\}\_{t \ge 0}$ is not an arbitrage. 
 
+By using the self-financing condition (1.4) and simple stochastic calculus one can show that
+
+$$
+dV^*(t) = D(t)h_S(t) S(t) \sigma(t) d\widetilde{W}(t).
+$$
+
+Thus, $\\{ V^*(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-martingale relative to the filtration $\\{ \mathcal{F}\_W(t) \\}\_{t \ge 0}$. 
 
