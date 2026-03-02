@@ -6,7 +6,7 @@ layout: default
 # Risk-Neutral Probability Measure
 
 ## 1. Theory
-To set up our analysis, we begin by assuming the probability space $(\Omega, \mathcal{F}, \mathbb{P})$ and the Brownian motion $\\{ W(t) \\}\_{t ge 0}$ are given. 
+To set up our analysis, we begin by assuming the probability space $(\Omega, \mathcal{F}, \mathbb{P})$ and the Brownian motion $\\{ W(t) \\}\_{t \ge 0}$ are given. 
 
 The central concept required for our analysis is the martingale. The precise definition is the following:
 
