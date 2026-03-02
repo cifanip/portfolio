@@ -74,7 +74,7 @@ That is, any change in value resulting from a variation in the number of shares 
 Now let $\\{ \theta(t) \\}\_{t ge 0}$ be the stochastic process
 
 $$
-\theta(t) = \frac{\mu(t) - R(t)}{\sigma(t)}
+\theta(t) = \frac{\mu(t) - R(t)}{\sigma(t)} \qquad (1.5)
 $$
 
 and $\\{ Z(t) \\}\_{t \ge 0}$ defined as in (1.2). 
