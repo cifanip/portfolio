@@ -24,8 +24,16 @@ for all $t \ge 0$. From this defintion is clear that the process $M(t)$, conditi
 Let $\\{ \theta(t) \\}\_{t \ge 0} \in \mathcal{C}^0[\mathcal{F}(t)]$ satisfy
 
 $$
-\mathbb{E}[\exp \left( \frac{1}{2} \int_0^T \theta(t)^2 dt \right)]< \infty, \qquad \text{for all } T>0 
+\mathbb{E}[\exp \left( \frac{1}{2} \int_0^T \theta(t)^2 dt \right)]< \infty, \qquad \text{for all } T>0.
 $$
+
+Then the stochastic process $\\{ Z(t) \\}\_{t \ge 0}$ given by
+
+$$
+Z(t) = \exp \left( - \int_0^\t \theta(s) dW(s) = \frac{1}{2} \int_0^t \theta(s)^2 ds \right)
+$$
+
+is a martingale relative to the filtration $\\{ \mathcal{F}(t)\_{t ge 0} \\}$. 
 
 ### Girsanov's theorem
 
