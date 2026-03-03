@@ -116,7 +116,7 @@ $$
 Suppose, for the sake of contradiction, that the portofolio is an arbitrage. Then $V(0)=0$ and since $D(0)=1$ we have $V^*(0)=0$. By (1.6) we know that
 
 $$
-\widetilde{E}[D^*(t)] = 0. \qquad (1.7)
+\widetilde{E}[V^*(t)] = 0. \qquad (1.7)
 $$
 
 
