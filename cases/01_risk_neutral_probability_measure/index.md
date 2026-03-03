@@ -143,6 +143,14 @@ $$
 V(t) = \widetilde{E}[ \exp \left( -\int_t^T R(s) ds \right) Y|\mathcal{F}_W(t)].
 $$
 
+If we know interpret $V(t)$ as the value of the investment of the option seller at time $t$, i.e. $\Pi_Y(t)$, we obtain the risk-neutral option price
+
+$$
+\Pi_Y(t) = \widetilde{E}[ \exp \left( -\int_t^T R(s) ds \right) Y|\mathcal{F}_W(t)].
+$$
+
+This is viewed as a fair condition on the price of the derivative, since from Theorem 3 we know that this portfolio is not an arbitrage. 
+
 
 
 
