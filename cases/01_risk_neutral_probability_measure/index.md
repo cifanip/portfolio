@@ -184,7 +184,7 @@ $$
 Deriving again with respet to $K$ we have
 
 $$
-\frac{\partial^2}{\partial K^2}\Pi(S,t) = p(K,T|S,t). \qquad (2.1)
+e^{-R(T-t)} \frac{\partial^2}{\partial K^2}\Pi(S,t) = p(K,T|S,t). \qquad (2.1)
 $$
 
 Thus, given an option chain one can reconstruct numerically the dendity $p$ from discrete derivatives of the oprion price w.r.t. strike price. 
