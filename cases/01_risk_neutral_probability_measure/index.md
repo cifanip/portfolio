@@ -104,28 +104,34 @@ $$
 Thus, $\\{ V^*(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-martingale relative to the filtration $\\{ \mathcal{F}\_W(t) \\}\_{t \ge 0}$, i.e.,
 
 $$
-\widetilde{E}[D(t)V(t)|\mathcal{F}_W(s)] = D(s)V(s), \qquad \text{for all } 0 \le s \leq t.
+\widetilde{E}[D(t)V(t)|\mathcal{F}_W(s)] = D(s)V(s), \qquad \text{for all } 0 \le s \leq t. \qquad (1.6)
 $$
 
 and by properties of martingales
 
 $$
-\widetilde{E}[D(t)V(t)] = \widetilde{E}[D(0)V(0)] = \widetilde{E}[V(0)]. \qquad (1.6)
+\widetilde{E}[D(t)V(t)] = \widetilde{E}[D(0)V(0)] = \widetilde{E}[V(0)]. \qquad (1.7)
 $$
 
-Suppose, for the sake of contradiction, that the portofolio is an arbitrage. Then $V(0)=0$ and since $D(0)=1$ we have $V^*(0)=0$. By (1.6) we know that
+Suppose, for the sake of contradiction, that the portofolio is an arbitrage. Then $V(0)=0$ and since $D(0)=1$ we have $V^*(0)=0$. By (1.7) we know that
 
 $$
-\widetilde{E}[V^*(t)] = 0. \qquad (1.7)
+\widetilde{E}[V^*(t)] = 0. \qquad (1.8)
 $$
 
-Now, let $T>0$ such that $\mathbb{P}(V(T) \ge 0)=1$ and $\mathbb{P}(V(T) > 0) > 0$. Given that $\mathbb{P}$ and $\widetilde{\mathbb{P}}$ are equivalent we must have that $\widetilde{\mathbb{P}}(V(T) \ge 0)=1$ and $\widetilde{\mathbb{P}}(V(T) > 0) > 0$. Furthermore, since $D(t)$ is positive we also have $\widetilde{\mathbb{P}}(V^\*(T) \ge 0)=1$ and $\widetilde{\mathbb{P}}(V^\*(T) > 0) > 0$. However, this contradicts (1.7). Thus the portfolio is not an arbitrage. 
+Now, let $T>0$ such that $\mathbb{P}(V(T) \ge 0)=1$ and $\mathbb{P}(V(T) > 0) > 0$. Given that $\mathbb{P}$ and $\widetilde{\mathbb{P}}$ are equivalent we must have that $\widetilde{\mathbb{P}}(V(T) \ge 0)=1$ and $\widetilde{\mathbb{P}}(V(T) > 0) > 0$. Furthermore, since $D(t)$ is positive we also have $\widetilde{\mathbb{P}}(V^\*(T) \ge 0)=1$ and $\widetilde{\mathbb{P}}(V^\*(T) > 0) > 0$. However, this contradicts (1.8). Thus the portfolio is not an arbitrage. 
 
 ### European option pricing
 Consider a European option with pay-off $Y$ at maturity time $T>0$. Denote by $\Pi\_Y(t)$ the price of this derivative when sold at $t<T$. We make the following assumptions:
 
 1. the seller will only invest the premium $\Pi\_Y(t)$ in the $1+1$ dimensional market made of the underlysing stock and a bond.
 2. the portfolio is self-sinancing.
+
+By (1.6) we have that
+
+$$
+V(t) = \frac{1}{D(t)} \widetilde{E}[D(T)V(T)|\mathcal{F}_W(t)].
+$$
 
 
 
