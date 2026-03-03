@@ -15,5 +15,5 @@ and financial time series, have shown strong interdependence between distant sam
 A cenetered Gaussian procces $B_t$ is defined to be a Fractional Brownian Motion if its covariance matrix has the following form:
 
 $$
-\mathbb{E}[B_t B_s] = \frac{1}{2} \left( s^{2H}+t^{2H} - |t-s|^{2H} \right). \qquod (1.0)
+\mathbb{E}[B_t B_s] = \frac{1}{2} \left( s^{2H}+t^{2H} - |t-s|^{2H} \right). \qquad (1.0)
 $$
