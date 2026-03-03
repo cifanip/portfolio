@@ -130,7 +130,11 @@ Consider a European option with pay-off $Y$ at maturity time $T>0$. Denote by $\
 By (1.6) we have that
 
 $$
-V(t) = \frac{1}{D(t)} \widetilde{E}[D(T)V(T)|\mathcal{F}_W(t)].
+\begin{aligned}
+V(t) &= \frac{1}{D(t)} \widetilde{E}[D(T)V(T)|\mathcal{F}_W(t)] \\
+&= \widetilde{E}[\frac{D(T)}{D(t)}V(T)|\mathcal{F}_W(t)] \\
+&= \widetilde{E}[ \exp \left( -\int_t^T R(s) ds \right) V(T)|\mathcal{F}_W(t)]
+\end{aligned}
 $$
 
 
