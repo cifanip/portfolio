@@ -110,8 +110,15 @@ $$
 and by properties of martingales
 
 $$
-\widetilde{E}[D(t)V(t)] = \widetilde{E}[D(0)V(0)] = \widetilde{E}[V(0)].
+\widetilde{E}[D(t)V(t)] = \widetilde{E}[D(0)V(0)] = \widetilde{E}[V(0)]. \qquad (1.6)
 $$
 
-Suppose, for the sake of contradiction, that the portofolio is an arbitrage. Since $V(0)=0$ and since $D(0)=1$ we have $V^*(0)=0$. 
+Suppose, for the sake of contradiction, that the portofolio is an arbitrage. Then $V(0)=0$ and since $D(0)=1$ we have $V^*(0)=0$. By (1.6) we know that
+
+$$
+\widetilde{E}[D^*(t)] = 0. \qquad (1.7)
+$$
+
+
+
 
