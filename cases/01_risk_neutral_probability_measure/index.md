@@ -189,7 +189,12 @@ $$
 
 Thus, given an option chain one can reconstruct numerically the dendity $p$ from discrete derivatives of the oprion price w.r.t. strike price. 
 
-![Risk-neutral probability density for call options computed from a stock index data](figures/rnp.png)
+<figure align="center">
+  <img src="figures/rnp.png" width="500">
+  <figcaption>
+    <b>Figure 1.</b> Description of the figure goes here.
+  </figcaption>
+</figure>
 
 
 
