@@ -101,9 +101,17 @@ $$
 dV^*(t) = D(t)h_S(t) S(t) \sigma(t) d\widetilde{W}(t).
 $$
 
-Thus, $\\{ V^*(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-martingale relative to the filtration $\\{ \mathcal{F}\_W(t) \\}\_{t \ge 0}$. It follows that
+Thus, $\\{ V^*(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-martingale relative to the filtration $\\{ \mathcal{F}\_W(t) \\}\_{t \ge 0}$, i.e.,
 
 $$
 \widetilde{E}[D(t)V(t)|\mathcal{F}_W(s)] = D(s)V(s), \qquad \text{for all } 0 \le s \leq t.
 $$
+
+and by properties of martingales
+
+$$
+\widetilde{E}[D(t)V(t)] = \widetilde{E}[D(0)V(0)] = \widetilde{E}[V(0)].
+$$
+
+Suppose, for the sake of contradiction, that the portofolio is an arbitrage. Since $V(0)=0$ and since $D(0)=1$ we have $V^*(0)=0$. 
 
