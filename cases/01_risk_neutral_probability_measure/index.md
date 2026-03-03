@@ -104,6 +104,6 @@ $$
 Thus, $\\{ V^*(t) \\}\_{t \ge 0}$ is a $\widetilde{\mathbb{P}}$-martingale relative to the filtration $\\{ \mathcal{F}\_W(t) \\}\_{t \ge 0}$. It follows that
 
 $$
-\widetilde{E}[D(t)V(t)|\mathcal{F}(s)] = D(s)V(s), \qquad \text{for all } 0 \le s \leq t.
+\widetilde{E}[D(t)V(t)|\mathcal{F}_W(s)] = D(s)V(s), \qquad \text{for all } 0 \le s \leq t.
 $$
 
