@@ -157,6 +157,7 @@ $$
 \begin{aligned}
 Y &= (S(T)-K)_+ \qquad \text{for call options}\\
 Y &= (K-S(T))_+ \qquad \text{for put options}
+\end{aligned}
 $$
 
 with $K$ the strike price, one can solve (1.9) analytically and arrive at the Black-Sholes formula. 
