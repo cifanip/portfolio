@@ -26,13 +26,13 @@ $$
 
 The process has then stationary increments and the scaling of their covariance can be computed numerically. This property is a ‘fingerprint’ of such processes. 
 
-Define the sequence $\\{X_n,$n \ge 1$ \\}$ with $X_n = B_n-B_{n-1}$. Its covariance (stationary) function is [^2]:
+Define the sequence $\\{X\_n,$n \ge 1$ \\}$ with $X\_n = B\_n-B\_{n-1}$. Its covariance (stationary) function is [^2]:
 
 $$
 \rho_H(n) = \frac{1}{2} \left( (n+1)^{2H} + (n-1)^{2H}-2n^{2H} \right). \qquad (1.2)
 $$
 
-By looking at the sign of $\rho_H(n)$ we discover that, two increments $B_k-B_{k-1}$ and $B_{k+n}-B_{k+n-1}$ are positively correlated if $H>1/2$ and negatively correlated if $H<1/2$. 
+By looking at the sign of $\rho_H(n)$ we discover that, two increments $B\_k-B\_{k-1}$ and $B\_{k+n}-B\_{k+n-1}$ are positively correlated if $H>1/2$ and negatively correlated if $H<1/2$. 
 
 
 
