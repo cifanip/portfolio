@@ -192,7 +192,7 @@ Thus, given an option chain one can reconstruct numerically the dendity $p$ from
 <figure align="center">
   <img src="figures/rnp.png" width="500">
   <figcaption>
-    <b>Figure 1.</b> Description of the figure goes here.
+    <b>Figure 1.</b> Risk-neutral probability density computed from a stock index option chain data.
   </figcaption>
 </figure>
 
