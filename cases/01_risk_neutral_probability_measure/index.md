@@ -146,10 +146,20 @@ $$
 If we know interpret $V(t)$ as the value of the investment of the option seller at time $t$, i.e. $\Pi_Y(t)$, we obtain the risk-neutral option price
 
 $$
-\Pi_Y(t) = \widetilde{E}[ \exp \left( -\int_t^T R(s) ds \right) Y|\mathcal{F}_W(t)].
+\Pi_Y(t) = \widetilde{E}[ \exp \left( -\int_t^T R(s) ds \right) Y|\mathcal{F}_W(t)]. \qquad (1.9)
 $$
 
 This is viewed as a fair condition on the price of the derivative, since from Theorem 3 we know that this portfolio is not an arbitrage. 
+
+If we know assume that $R(t) = \text{const}$, $\sigma(t) = \text{const}$ and the pay-off given by
+
+$$
+\begin{aligned}
+Y &= (S(T)-K)_+ \qquad \text{for call options}\\
+Y &= (K-S(T))_+ \qquad \text{for put options}
+$$
+
+with $K$ the strike price, one can solve (1.9) analytically and arrive at the Black-Sholes formula. 
 
 
 
