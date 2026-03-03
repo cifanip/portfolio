@@ -189,7 +189,7 @@ $$
 
 Thus, given an option chain one can reconstruct numerically the dendity $p$ from discrete derivatives of the oprion price w.r.t. strike price. 
 
-
+![Figure 1 description](figures/rnp.png)
 
 
 
