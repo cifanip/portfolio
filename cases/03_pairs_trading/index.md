@@ -89,6 +89,6 @@ $$
 \Delta y_t = \Pi y_{t-1} + \Gamma_1 \Delta y_{t-1} + u_t,
 $$
 
-with $\Gamma_1 \coloneqq -A_2$. 
+with $\Gamma_1 \coloneqq -A_2$. Since the right-hand side only contains stationary processes, it follows that $\alpha \beta'y_{t-1}$ must be stationary. Multiplication by the left inverse $(\alpha' \alpha)^{-1} \alpha'$
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
