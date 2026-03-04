@@ -41,12 +41,12 @@ It is easily shown that $\rho_H(n)$ decays only polynomially in $n$. Morevoer fo
 As an illustration, Fig. 1 shows sample paths of FBM and its corrisponding increments for $H=0.8$ (left column) and $H=0.1$ (right column). 
 
 <p align="center">
-  <img src="images/fig1.png" width="45%">
-  <img src="images/fig2.png" width="45%">
+  <img src="figures/fbm_h08.png" width="45%">
+  <img src="figures/fbm_h01.png" width="45%">
 </p>
 <p align="center">
-  <img src="images/fig3.png" width="45%">
-  <img src="images/fig4.png" width="45%">
+  <img src="figures/fbn_h08.png" width="45%">
+  <img src="figures/fbn_h01.png" width="45%">
 </p>
 <p align="center"><b>Figure 1:</b> FMB realization and its corresponding increments for $H=0.8$ (left column) and for $H=0.1$ (right column).</p>
 
