@@ -34,7 +34,7 @@ $$
 Given an initial condition $y_0$ and a white-noise vector $u_t$, by recursion one finds that
 
 $$
-y_t = (I_K+A_1+ \cdots +A_1^{t-1}) \qquad (1.4)
+y_t = (I_K+A_1+ \cdots +A_1^{t-1}) \nu + A^t_{y_0} + \sum_{i=0}^{t-1} A^i+1 u_{t-i}. \qquad (1.4)
 $$
 
 
