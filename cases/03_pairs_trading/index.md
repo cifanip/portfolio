@@ -59,13 +59,13 @@ $$
 that is, $y_t$ is a random walk. In general, univariate processes with $d$ unit roots is called *integrated of order* $d$ or $I(d)$. Process (1.7) is then $I(1)$ and can be made stable by differentiation:
 
 $$
-\Delta y_t \coloneqq (1-L) y_{t} = u_t, \qquad (1.8)
+\Delta y_t := (1-L) y_{t} = u_t, \qquad (1.8)
 $$
 
 with $L$ the lag operator. Analogously, it can be shown that for a $K$-dimensional $VAR(p)$ process with $d$ unit roots we have that 
 
 $$
-\Delta^d y_t \coloneqq (1-L)^d y_{t} \qquad (1.9)
+\Delta^d y_t := (1-L)^d y_{t} \qquad (1.9)
 $$
 
 is a stable process. That is, each variable becomes stationary upon differencing. 
@@ -80,7 +80,7 @@ $$
 Suppose that the process is unstable, and in particular one or more roots are unitary while the rest of them lies outside of the nit circle (see condition (1.6)). By the former assumptions it follows that $|I-A\_1-A\_2|=0$ and thus the matrix
 
 $$
-\Pi \coloneqq -(I-A_1-A_2) \qquad (1.11)
+\Pi := -(I-A_1-A_2) \qquad (1.11)
 $$
 
 is singular. Suppose $\text{rank}(\Pi) = r < K$. Then we can decompose $\Pi = \alpha \beta'$. Now we assume that differencing once is enough to make the process stable, i.e. $y\_t$ is $I(1)$. We thus have
@@ -94,7 +94,7 @@ with $\Gamma_1 \coloneqq -A_2$. Since the right-hand side only contains stationa
 The interesting case in practise is often when all individual variables are either $I(1)$ or $I(0)$. A $K$-dimensional $VAR(p)$ process is called *cointegrated* if rank $r$ if
 
 $$
-\Pi \coloneqq -(I-A_1- \cdots - A_p)
+\Pi := -(I-A_1- \cdots - A_p)
 $$
 
 has rank $r$. The matrix $\beta$ from the decomposition $\Pi = \alpha' \beta'$ is called *cointegration vectors*. Edge cases are: $r=0$, for which $\Delta y_t$ is a stable $VAR(p-1)$ process; $r=K$, for which $y_t$ has no unitary roots and hence stable. 
