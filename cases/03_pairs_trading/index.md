@@ -19,8 +19,10 @@ $$
 
 where $y_t = (y_{1t},...,y_{Kt})'$ is a $K$-dimensional random vector, $A_i$ are coefficient matrices of size $(K \times K)$, $\nu=(\nu_1,...,\nu_K)'$ is vector of constants of size $(K\times 1)$ and $u_t=(u_1,...,u_K)'$ is a $K$-dimensional white noise vector with covariance $\mathbb{E}[u_tu_s']= \delta_{t,s} \Sigma_u$. 
 
-Model (1.0) can be conviniently reqritten in matrix form:
+Model (1.0) can be conviniently reqritten in a $Kp$-dimensional form:
 
 $$
 \mathbf{Y}_t = \boldsymbol{\nu} + \mathbf{A} \mathbf{Y}_{t-1} + \mathbf{U}_t
 $$
+
+where $\mathbf{Y}_t = (y_t, y_{t-1},...,y_{t-p+1})$
