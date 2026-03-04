@@ -14,5 +14,5 @@ The mathematics behind pairs trading is known as **cointegration**. In the follo
 The vector autoregressive model of order $p$, namely VAR(p), is defined as follows:
 
 $$
-y_t = \nu + A_1 y_{t-1}+ ... + A_p y_{t-p} + u_t, \qquad t > p \qquad (1.0)
+y_t = \nu + A_1 y_{t-1}+ ... + A_p y_{t-p} + u_t, \qquad t > p \qquad\qquad  (1.0)
 $$
