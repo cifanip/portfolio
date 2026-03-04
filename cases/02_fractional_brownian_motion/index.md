@@ -10,29 +10,29 @@ and financial time series, have shown strong interdependence between distant sam
 
 ## 1. Theory
 
-A cenetered Gaussian procces $B_t$ is defined to be a Fractional Brownian Motion if its covariance matrix has the following form:
+A cenetered Gaussian procces $B^H_t$ is defined to be a Fractional Brownian Motion if its covariance matrix has the following form:
 
 $$
-\mathbb{E}[B_t B_s] = \frac{1}{2} \left( s^{2H}+t^{2H} - |t-s|^{2H} \right). \qquad (1.0)
+\mathbb{E}[B^H_t B^H_s] = \frac{1}{2} \left( s^{2H}+t^{2H} - |t-s|^{2H} \right). \qquad (1.0)
 $$
 
-As for standard Brownian Motion, recovered for $H=1/2$, a self-similarity exists: for any constant $a>0$, the process $\\{ a^{-H}B_{at}\\}\_{t \ge 0}$ has the same distribution as the process $\\{ B_{t}\\}\_{t \ge 0}$. This makes it appealing from a fincancial view-point, since it is often the case that time-series looked at different time-scales are found to be statistically equivalent. 
+As for standard Brownian Motion, recovered for $H=1/2$, a self-similarity exists: for any constant $a>0$, the process $\\{ a^{-H}B^H_{at}\\}\_{t \ge 0}$ has the same distribution as the process $\\{ B^H_{t}\\}\_{t \ge 0}$. This makes it appealing from a fincancial view-point, since it is often the case that time-series looked at different time-scales are found to be statistically equivalent. 
 
 From (1.0) one finds that
 
 $$
-\mathbb{E}[ (B_t-B_s)^2] = |t-s|^{2H} . \qquad (1.1)
+\mathbb{E}[ (B^H_t-B^H_s)^2] = |t-s|^{2H} . \qquad (1.1)
 $$
 
 The process has then stationary increments and the scaling of their covariance can be computed numerically. This property is a ‘fingerprint’ of such processes. 
 
-Define the sequence $\\{X\_n, \ n \ge 1 \\}$ with $X\_n = B\_n-B\_{n-1}$. Its covariance (stationary) function is [^2]:
+Define the sequence $\\{X\_n, \ n \ge 1 \\}$ with $X\_n = B^H\_n-B^H\_{n-1}$. Its covariance (stationary) function is [^2]:
 
 $$
 \rho_H(n) = \frac{1}{2} \left( (n+1)^{2H} + (n-1)^{2H}-2n^{2H} \right). \qquad (1.2)
 $$
 
-By looking at the sign of $\rho_H(n)$ we discover that, two increments $B\_k-B\_{k-1}$ and $B\_{k+n}-B\_{k+n-1}$ are positively correlated if $H>1/2$ and negatively correlated if $H<1/2$. In trading language, the first case ($H>1/2$) corresponds to **trend-following** strategies where a positive increment in the past is more likely to be followed by another positive increment. The second case (H<1/2) naturally links to a **contrarian regime**. 
+By looking at the sign of $\rho_H(n)$ we discover that, two increments $B^H\_k-B^H\_{k-1}$ and $B^H\_{k+n}-B^H\_{k+n-1}$ are positively correlated if $H>1/2$ and negatively correlated if $H<1/2$. In trading language, the first case ($H>1/2$) corresponds to **trend-following** strategies where a positive increment in the past is more likely to be followed by another positive increment. The second case (H<1/2) naturally links to a **contrarian regime**. 
 
 It is easily shown that $\rho_H(n)$ decays only polynomially in $n$. Morevoer for $H>1/2$ we have $\sum_{n=1}^\infty \rho_H(n) = \infty$. This is often reffered to as *long-range dependece*. Clearly, unlike standard Brownian motion, information from the past helps predict future movements. 
 
