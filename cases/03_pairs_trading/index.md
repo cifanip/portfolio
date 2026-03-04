@@ -22,10 +22,14 @@ where $y_t = (y_{1t},...,y_{Kt})'$ is a $K$-dimensional random vector, $A_i$ are
 Model (1.0) can be conviniently reqritten in a $Kp$-dimensional form:
 
 $$
-\mathbf{Y}_t = \boldsymbol{\nu} + \mathbf{A} \mathbf{Y}_{t-1} + \mathbf{U}_t (1.1)
+\mathbf{Y}_t = \boldsymbol{\nu} + \mathbf{A} \mathbf{Y}_{t-1} + \mathbf{U}_t \qquad (1.1)
 $$
 
-where $\mathbf{Y}_t = (y\_t, y\_{t-1},...,y\_{t-p+1})$ (see [^1] for the complete defition of the terms in (1.1))
+where $\mathbf{Y}_t = (y\_t, y\_{t-1},...,y\_{t-p+1})'$ (see [^1] for the complete defition of the terms in (1.1)). This shows that most of the properties of (1.0) can be understood as an extension of a VAR(1) model
+
+$$
+y_t = \nu + A_1 y_{t-1}+u_t. \qquad (1.3)
+$$
 
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
