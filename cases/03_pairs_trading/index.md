@@ -53,10 +53,15 @@ $$
 Consider now a $VAR(1)$ process. A particular scenario of interest is the case in which only unit root is present and all other roots are outise of the unit circle. For a centered univriate process we have
 
 $$
-y_t = y_{t-1}+u_t,
+y_t = y_{t-1}+u_t, \qquad (1.7)
 $$
 
-that is, $y_t$ is a random walk. In general, univariate processes with $d$ unit roots is called *integrated of order* $d$ or $I(d)$. 
+that is, $y_t$ is a random walk. In general, univariate processes with $d$ unit roots is called *integrated of order* $d$ or $I(d)$. Process (1.7) is then $I(1)$ and can be made stable by differentiation:
 
+$$
+\Delta y_t \coloneqq (1-L) y_{t} = u_t, \qquad (1.8)
+$$
+
+with $L$ the lag operator. 
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
