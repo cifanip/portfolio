@@ -46,7 +46,7 @@ $$
 i.e., the polynomial in (1.5) has no roots inside or on the unit circle. The extension of (1.5) to $VAR(p)$ reads as follows:
 
 $$
-\text{det}(I-A_1z-\cdot-A_pz^p) \ne 0 \qquad \text{for } |z| \le 1. \qquad\qquad (1.6)
+\text{det}(I-A_1z-\cdots-A_pz^p) \ne 0 \qquad \text{for } |z| \le 1. \qquad\qquad (1.6)
 $$
 
 
