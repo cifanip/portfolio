@@ -99,8 +99,10 @@ $$
 
 has rank $r$. The matrix $\beta$ from the decomposition $\Pi = \alpha' \beta'$ is called *cointegration vectors*. Edge cases are: $r=0$, for which $\Delta y_t$ is a stable $VAR(p-1)$ process; $r=K$, for which $y_t$ has no unitary roots and hence stable. 
 
+## Computations
 
-
+### Practical considerations
+When analysing time-series one does not apriori, in general, what the cointegration rank $r$ is. 
 
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
