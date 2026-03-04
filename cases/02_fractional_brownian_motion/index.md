@@ -55,7 +55,7 @@ As an illustration, Fig. 1 shows sample paths of FBM and its corrisponding incre
 <img src="figures/fbn_h08.png" width="300"><br>
 </td>
 <td align="center">
-<img src="figures/fbn_h08.png" width="300"><br>
+<img src="figures/fbn_h01.png" width="300"><br>
 </td>
 </tr>
 </table>
