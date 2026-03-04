@@ -132,7 +132,7 @@ $$
 \frac{N!}{K!(N-K)!}
 $$
   
-    which for fixed $K$ scales as $\sim N^K/K!$. For large $N$, this search can become computationally prohibitive.
+which for fixed $K$ scales as $\sim N^K/K!$. For large $N$, this search can become computationally prohibitive.
 
 4. A second, more difficult problem, stems from the fact that one has only access to historical values. It is on these datasets that $\beta$ is computed. In actual trading a portfolio $\beta'y_t$ is constructed when a position is opened and $\beta$ held fixed until the position is closed. However, there is no guarantee that $\beta$ will stay approximately the same within this trading time window. In fact, it often varies continuously with time rather than being constant. 
 
