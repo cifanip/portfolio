@@ -50,13 +50,13 @@ $$
 $$
 
 ### Integrated processes
-Consider now a $VAR(1)$ process. A particular scenario of interest is the case in which only unit root is present. For a centered univriate process we have
+Consider now a $VAR(1)$ process. A particular scenario of interest is the case in which only unit root is present and all other roots are outise of the unit circle. For a centered univriate process we have
 
 $$
 y_t = y_{t-1}+u_t,
 $$
 
-tha is, $y_t$ is a random walk. 
+that is, $y_t$ is a random walk. In general, univariate processes with $d$ unit roots is called *integrated of order $d$* or $I(d)$. 
 
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
