@@ -34,11 +34,16 @@ $$
 
 By looking at the sign of $\rho_H(n)$ we discover that, two increments $B\_k-B\_{k-1}$ and $B\_{k+n}-B\_{k+n-1}$ are positively correlated if $H>1/2$ and negatively correlated if $H<1/2$. In trading language, the first case ($H>1/2$) corresponds to **trend-following** strategies where a positive increment in the past is more likely to be followed by another positive increment. The second case (H<1/2) naturally links to a **contrarian regime**. 
 
-It is easily shown that $\rho_H(n)$ decays only polynomially in $n$. Morevoer for $H>1/2$ we have $\sum_{n=1}^\infty \rho_H(n) = \infty$. This is often reffered to as *long-range dependece*. Clearly, unlike standard Brownian motion, information from the past helps predict future movements.  
+It is easily shown that $\rho_H(n)$ decays only polynomially in $n$. Morevoer for $H>1/2$ we have $\sum_{n=1}^\infty \rho_H(n) = \infty$. This is often reffered to as *long-range dependece*. Clearly, unlike standard Brownian motion, information from the past helps predict future movements. 
 
 ## 2. Computation
 
 As an illustration, Fig. 1 shows sample paths of FBM for $H=0.8$ (left panel) and $H=0.1$ (right panel). 
+
+<p align="center">
+  <img src="figures/fbm_h08.png" width="45%" />
+  <img src="figures/fbm_h01.png" width="45%" />
+</p>
 
 [^1]: Cifani, P. and Flandoli, F., 2025. Diffusion Properties of Small-Scale Fractional Transport Models, Journal of Statistical Physics.
 
