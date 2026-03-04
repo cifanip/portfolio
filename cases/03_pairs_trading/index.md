@@ -56,7 +56,7 @@ $$
 y_t = y_{t-1}+u_t,
 $$
 
-that is, $y_t$ is a random walk. In general, univariate processes with $d$ unit roots is called *integrated of order $d$* or $I(d)$. 
+that is, $y_t$ is a random walk. In general, univariate processes with $d$ unit roots is called *integrated of order* $d$ or $I(d)$. 
 
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
