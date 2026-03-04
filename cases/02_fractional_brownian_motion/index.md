@@ -38,7 +38,7 @@ It is easily shown that $\rho_H(n)$ decays only polynomially in $n$. Morevoer fo
 
 ## 2. Computation
 
-
+As an illustration, Fig. 1 shows sample paths of FBM and its corresponding increments for $H=0.8$ and $H=0.1$. 
 
 [^1]: Cifani, P. and Flandoli, F., 2025. Diffusion Properties of Small-Scale Fractional Transport Models, Journal of Statistical Physics.
 
