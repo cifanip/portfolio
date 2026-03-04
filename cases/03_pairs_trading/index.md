@@ -16,3 +16,5 @@ The vector autoregressive model of order $p$, namely VAR(p), is defined as follo
 $$
 y_t = \nu + A_1 y_{t-1}+ ... + A_p y_{t-p} + u_t, \qquad t > p \qquad\qquad  (1.0)
 $$
+
+where $y_t = (y_{1t},...,y_{Kt})$ is a $K$-dimensional random vector, $A_i$ are coefficient matrices of size $(K \times K)$
