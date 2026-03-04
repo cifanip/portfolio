@@ -102,7 +102,7 @@ has rank $r$. The matrix $\beta$ from the decomposition $\Pi = \alpha' \beta'$ i
 ## Computations
 
 ### Practical considerations
-When analysing time-series one does not apriori, in general, what the cointegration rank $r$ is. 
+When analysing time-series one does not apriori, in general, what the cointegration rank $r$ is. However, if the process is assumed to be Gaussian, parameter estimation is possible through Maximum Likelihood estimation under the constraint $\text{rank}(\Pi)=r$. Analytical formula exists in this case, which yield the cointegration vectors $\beta$ (see [^1] for details). 
 
 
 [^1]: Kilian, L., 2006. New introduction to multiple time series analysis, by helmut lütkepohl, springer, 2005. Econometric theory.
