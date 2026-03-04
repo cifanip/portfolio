@@ -52,6 +52,10 @@ As an illustration, Fig. 1 shows sample paths of FBM and its corrisponding incre
 
 The difference between the two cases is startlingly clear. The signal for $H=0.8$ looks more regular with regions of persistent upward and downward trends. On the contrary, the signal for $H=0.1$ is extrimely rough with no preferential trend. 
 
+<p align="center">
+  <img src="figures/cond_pdf_fmb_h01.png" width="70%">
+</p>
+
 [^1]: Cifani, P. and Flandoli, F., 2025. Diffusion Properties of Small-Scale Fractional Transport Models, Journal of Statistical Physics.
 
 [^2]: Nualart, D., 2006. The Malliavin calculus and related topics. Berlin, Heidelberg: Springer Berlin Heidelberg.
