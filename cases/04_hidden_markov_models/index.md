@@ -52,7 +52,7 @@ $$
 P(\theta,X) = \pi_{x_0} \Pi_{i=1}^{T-1} b_{x_{i-1}}(\theta_{i-1})a_{x_{i-1},x_{i}}
 $$
 
-since the probability of $\theta_i$ is fully determined by $x_i$. 
+since $\theta_i$ is conditionally independent of the remaining variables given $x_i$. 
 
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
