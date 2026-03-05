@@ -86,12 +86,13 @@ This problem is often ecountered in practise. All one is given is a sequence of 
 ## 2. Computations
 
 To illustrate the effectiveness of the HMM training algorithm, also known as the Baum–Welch algorithm, I present a concrete example implemented in Fortran. Consider the following scenario. There are two possibile hidden states ($N=2$), either $1$ or $2$, to which we will attribute the meaning of bull and bear market, respectively. The observation vector is made of fuor labels ($M=4$) having the following meaning
+
 1 = large negative price difference
 2 = small negative price difference
 3 = small positive price difference
 4 = large positive price difference
 
-
+c
 
 A synthetic observation sequence is computed given the probability matrices
 
