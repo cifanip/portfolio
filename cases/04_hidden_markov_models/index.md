@@ -85,4 +85,9 @@ This problem is often ecountered in practise. All one is given is a sequence of 
 
 ## 2. Computations
 
+To illustrate the effectiveness of the HMM training algorithm, also known as the Baum–Welch algorithm, I present a concrete example implemented in Fortran. 
+
+
+
+
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
