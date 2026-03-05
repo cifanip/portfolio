@@ -65,7 +65,7 @@ By summing over all possible sequences in (1.3), we obtain
 $$
 \begin{aligned}
 P(\theta ;\lambda) &= \sum_X P(\theta , X ; \lambda) \\
-&= \sum_X  \pi_{x_0} b_{x_0} (\theta_0) a_{x_0,x_1}b_{x_1}(\theta_1) \cdots a_{x_{T-2},x_{T-1}}b_{x_{T-1}}(\theta_{T-1}).
+&= \sum_X  \pi_{x_0} b_{x_0} (\theta_0) a_{x_0,x_1}b_{x_1}(\theta_1) \cdots a_{x_{T-2},x_{T-1}}b_{x_{T-1}}(\theta_{T-1}). \qquad(1.4)
 \end{aligned}
 $$
 
