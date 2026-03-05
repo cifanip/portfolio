@@ -60,11 +60,15 @@ Three problems are of interest for applications.
 
 Given the model $\lambda = (A,B,\pi)$ and a sequence of observations $\theta$, find $P(\theta ; \lambda)$. That is, we want to find the probability assigned to an obsevation sequence given the model $\lambda$. 
 
-Dividing (1.3) by the marginal probability of $X$, we obtain
+By summing over all possible sequences in (1.3), we obtain
 
 $$
-P(\theta | X;\lambda) = b_{x_0}(\theta_0)b_{x_1}(\theta_1) \cdots b_{x_{T-1}}(\theta_{T-1}). 
+\begin{aligned}
+P(\theta ;\lambda) &= \sum_X P(\theta , X ; \lambda) \\
+&= \sum_X  \pi_{x_0} b_{x_0} (\theta_0) a_{x_0,x_1}b_{x_1}(\theta_1) \cdots a_{x_{T-2},x_{T-1}}b_{x_{T-1}}(\theta_{T-1}).
+\end{aligned}
 $$
+
 
 ### Problem 2
 
