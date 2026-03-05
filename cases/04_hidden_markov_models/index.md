@@ -46,7 +46,7 @@ P(x_1,x_2,x_3) &= P(x_1 | x_2,x_3 )P(x2,x_3) \\
 \end{aligned}
 $$
 
-
+However, by the Markov property $P(x_1 | x_2,x_3 ) = P(x_1 | x_2)$. 
 
 
 
