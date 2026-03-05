@@ -37,4 +37,6 @@ $$
 \lambda = (A,B,\pi). \qquad (1.2)
 $$
 
+A quantity of interest is the joint probability of the state sequence and observation sequence $P(\theta,X)$. 
+
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
