@@ -14,4 +14,4 @@ The following is a condensed and focused extract of the lecture notes [^1]. Thes
 
 
 
-[^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University, pp.26-56.
+[^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
