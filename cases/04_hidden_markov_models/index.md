@@ -22,7 +22,7 @@ $$
 with $A$ said to be *row=stochastic*, i.e.,
 
 $$
-a_{ij} \ge 0 \qqad \sum_{j=0}^{N-1} a_{ij} = 1.
+a_{ij} \ge 0, \qquad \sum_{j=0}^{N-1} a_{ij} = 1.
 $$
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
