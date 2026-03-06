@@ -139,7 +139,15 @@ which is in good agreement with the given probability matrices. Once the model i
 
 <p align="center"><b>Figure 2:</b> Observation values (blue dots) and corrisponding optimal state sequence (black dots).</p>
 
+From Figure 2 one interprets the state values as bull and bear market regimes. When the state value is high the returns are more likely to be positive, and the opposite is true for low state values. Occasional negative or positive spikes, are of course present during bull or bear market, respectively, as endoced in the probability matrix $B$. 
 
+A longer optimal state sequence of length $2000$ is shown in Figure 3. 
+
+<p align="center">
+  <img src="figures/vit_seq_long.png" width="70%">
+</p>
+
+<p align="center"><b>Figure 2:</b> Optimal state sequence of length $2000$.</p>
 
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
