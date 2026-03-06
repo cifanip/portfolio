@@ -1,10 +1,12 @@
 ---
-title: Risk Neutral Probability Measure
+title: Persistent Homology
 layout: default
 ---
 
-# Risk-Neutral Probability Measure
+# Persistent Homology
 
-This page presents a condensed and focused extract of the lecture notes Stochastic Calculus, Financial Derivatives and PDE's [^1], from prof. S. Calogero. It connects the fundamental concepts of option pricing and probability theory. A brief demonstration of how to compute the risk-neutral probability measure from data is provided. 
+Persistent Homology is concerned with the studies of the shape of data by tracking how topological features appear and disappear across multiple scales. It finds applications in a wide range of fields, including data analysis, machine learning, image processing, computational biology and finance, where it helps uncover structural patterns in complex datasets. These notes present a condensed and focused extract of the lecture notes Introduction to Persistent Homology [^1]. After introducing the fundamental concepts, a numerical example is presented to illustrate their application.
 
 ## 1. Theory
+
+[^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
