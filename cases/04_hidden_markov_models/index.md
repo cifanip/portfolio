@@ -133,6 +133,11 @@ $$
 
 which is in good agreement with the given probability matrices. Once the model is known, one can find the optimal state sequence as described in Problem 2. This procedure is known as the Viterbi algorithm. Figure 2 shows a sequence of observations with the underlying optimal state sequence. The observation and state values have been adjusted so that their interpretation is clear from the context. 
 
+<p align="center">
+  <img src="figures/vit_seq.png" width="70%">
+</p>
+
+<p align="center"><b>Figure 2:</b> Observation values (blue dots) and corrisponding optimal state sequence (black dots).</p>
 
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
