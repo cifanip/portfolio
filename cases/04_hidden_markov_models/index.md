@@ -131,8 +131,7 @@ B =
 \end{bmatrix}
 $$
 
-which is in good agreement with the given probability matrices. Once the model is known, one can find the optimal state sequence as described in Problem 2. 
-
+which is in good agreement with the given probability matrices. Once the model is known, one can find the optimal state sequence as described in Problem 2. This procedure is known as the Viterbi algorithm. Figure 2 shows a sequence of observations with the underlying optimal state sequence. The observation and state values have been adjusted so that their interpretation is clear from the context. 
 
 
 
