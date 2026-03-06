@@ -48,7 +48,7 @@ P(x_0,x_1,x_2) &= P(x_0 | x_1,x_2 )P(x1,x_2) \\
 \end{aligned}
 $$
 
-However, by the Markov property $P(x_0 | x_1,x_2 ) = P(x_0 | x_1)$. Thus, we have
+However, by the Markov property $P(x_0 \| x_1,x_2 ) = P(x_0 \| x_1)$. Thus, we have
 
 $$
 P(\theta,X) = \pi_{x_0} \Pi_{i=1}^{T-1} b_{x_{i-1}}(\theta_{i-1})a_{x_{i-1},x_{i}} \qquad (1.3)
