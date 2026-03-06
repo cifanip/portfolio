@@ -9,9 +9,9 @@ In many real-world sequential data problems, the underlying *state* of the syste
 
 ## 1. Theory
 
-The following is a condensed and focused extract of the lecture notes [^1]. These concepts can be found in the many texbooks on the subject available online. 
+The following is a condensed and focused extract of the lecture notes [^1]. These concepts can be found in the many textbooks on the subject available online. 
 
-We begin by introducing the standard notation for this problem. Let $V = \\{ 0,...,M-1 \\}$ be the set of possible observations. We denote an obesrvation by $\theta_i \in V$, with $i=0,...,T-1$, and $\theta = (\theta_0,...,\theta_{T-1})$ an observation sequence. Furthermore, let $Q = \\{ q_0,...,q_{N-1} \\}$ be the set of possible states and $X_i \in Q$, with $i=0,...,T-1$, denote a state value. FInally, let $\pi$ be the initial state distribution. 
+We begin by introducing the standard notation for this problem. Let $V = \\{ 0,...,M-1 \\}$ be the set of possible observations. We denote an observation by $\theta_i \in V$, with $i=0,...,T-1$, and $\theta = (\theta_0,...,\theta_{T-1})$ an observation sequence. Furthermore, let $Q = \\{ q_0,...,q_{N-1} \\}$ be the set of possible states and $X_i \in Q$, with $i=0,...,T-1$, denote a state value. Finally, let $\pi$ be the initial state distribution. 
 
 By definition, a Markov process is fully determined by the current state and a transition matrix $A=\\{ a_{ij} \\}$ of size $N \times N$ where
 
@@ -37,7 +37,7 @@ $$
 \lambda = (A,B,\pi). \qquad (1.2)
 $$
 
-A funadmanetal quantity of interest, that characterises the probelm, is the joint probability of the state sequence and observation sequence $P(\theta,X)$. To illustrate where the Markov property arises, consider the simple case of a sequence of length $3$. Recalling the basic property of joint and conditional distribution we have
+A fundamental quantity of interest, that characterises the problem, is the joint probability of the state sequence and observation sequence $P(\theta,X)$. To illustrate where the Markov property arises, consider the simple case of a sequence of length $3$. Recalling the basic property of joint and conditional distribution we have
 
 $$
 \begin{aligned}
@@ -58,7 +58,7 @@ Three problems are of interest for applications.
 
 ### Problem 1
 
-Given the model $\lambda = (A,B,\pi)$ and a sequence of observations $\theta$, find $P(\theta ; \lambda)$. That is, we want to find the probability assigned to an obsevation sequence given the model $\lambda$. 
+Given the model $\lambda = (A,B,\pi)$ and a sequence of observations $\theta$, find $P(\theta ; \lambda)$. That is, we want to find the probability assigned to an observation sequence given the model $\lambda$. 
 
 By summing over all possible sequences in (1.3), we obtain
 
@@ -75,13 +75,13 @@ Computing (1.4) directly is expensive. The number of multiplications in each ter
 
 Given the model $\lambda = (A,B,\pi)$ and a sequence of observations $\theta$, find and optimal state sequence for the underlying Markov process. Here, we aim to compute the hidden state sequence that underlies the observed process. 
 
-Here, we have different interpretations of "optimal". In the HHM sense, we select the most probale state at each sequence location. Differently, the so-called dynamic programming selecs the state sequence having the maximum probability. In either case, the solution algorithm goes through a $\beta$*-pass* (see [^1] for details). As fotr the $\alpha$-pass, a conveninet manipulation of (1.4) allows to retain the favaurable complexity. 
+Here, we have different interpretations of "optimal". In the HHM sense, we select the most probable state at each sequence location. Differently, the so-called dynamic programming selects the state sequence having the maximum probability. In either case, the solution algorithm goes through a $\beta$*-pass* (see [^1] for details). As for the $\alpha$-pass, a convenient manipulation of (1.4) allows to retain the favourable complexity. 
 
 ### Problem 3
 
 Given an observation sequence $\theta$ and dimensions $N$ and $M$, find the model $\lambda = (A,B,\pi)$ that maximizes the probability of $\theta$. 
 
-This problem is often ecountered in practise. All one is given is a sequence of observations from real-world data. It is hoped that the problem fits well within the HMM framwork such that, after having learned $\lambda = (A,B,\pi)$ from data, one can uncover the underlying hidden state sequence. Through an algorithm that re-estimates the model iteratively, maximizaion of $P(\theta ; \lambda)$ is achieved. The interested reader is referred to [^1] for implementation details. 
+This problem is often encountered in practise. All one is given is a sequence of observations from real-world data. It is hoped that the problem fits well within the HMM framework such that, after having learned $\lambda = (A,B,\pi)$ from data, one can uncover the underlying hidden state sequence. Through an algorithm that re-estimates the model iteratively, maximization of $P(\theta ; \lambda)$ is achieved. The interested reader is referred to [^1] for implementation details. 
 
 ## 2. Computations
 
@@ -113,7 +113,7 @@ B =
 \end{bmatrix}
 $$
 
-and a given initial probability vector $\pi$. The interpretation is as follows. In the first row of matrix $A$, the probability of remaining in state $1$ is set higher than the probability of transitioning to state $2$. An analogous interpretation holds for the second row. In the first row of matrix $B$, higher probabilities are assigned to positive returns when the underlying state is $1$. Conversly, in the seocond row of matrix $B$, with higher probabilities are associated with negative returns when the underlying state is $2$. From this construction we understand state $1$ and $2$ as bull and bear market regimes, respectively. Of course, in reality there is little a priori knowledge of what the state should represent; rather, their interpretation emerges from the estimated model.
+and a given initial probability vector $\pi$. The interpretation is as follows. In the first row of matrix $A$, the probability of remaining in state $1$ is set higher than the probability of transitioning to state $2$. An analogous interpretation holds for the second row. In the first row of matrix $B$, higher probabilities are assigned to positive returns when the underlying state is $1$. Conversely, in the second row of matrix $B$, with higher probabilities are associated with negative returns when the underlying state is $2$. From this construction we understand state $1$ and $2$ as bull and bear market regimes, respectively. Of course, in reality there is little a priori knowledge of what the state should represent; rather, their interpretation emerges from the estimated model.
 
 Coming back to our numerical experiment, we generate a sequence of observation of length $T=10000$ and feed it to the optimization algorithm. As already mentioned, the latter has no information about the values of $A$ and $B$ that generated the observation sequence. At convergence, the trained model is
 
@@ -139,7 +139,7 @@ which is in good agreement with the given probability matrices. Once the model i
 
 <p align="center"><b>Figure 2:</b> Observation values (blue dots) and corrisponding optimal state sequence (black dots).</p>
 
-From Figure 2 one interprets the state values as bull and bear market regimes. When the state value is high the returns are more likely to be positive, and the opposite is true for low state values. Occasional negative or positive spikes, are of course present during bull or bear market, respectively, as endoced in the probability matrix $B$. 
+From Figure 2 one interprets the state values as bull and bear market regimes. When the state value is high the returns are more likely to be positive, and the opposite is true for low state values. Occasional negative or positive spikes, are of course present during bull or bear market, respectively, as encoded in the probability matrix $B$. 
 
 A longer optimal state sequence of length $2000$ is shown in Figure 3. 
 
