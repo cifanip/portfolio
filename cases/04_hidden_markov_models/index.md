@@ -147,7 +147,7 @@ A longer optimal state sequence of length $2000$ is shown in Figure 3.
   <img src="figures/vit_seq_long.png" width="70%">
 </p>
 
-<p align="center"><b>Figure 2:</b> Optimal state sequence of length $2000$.</p>
+<p align="center"><b>Figure 3:</b> Optimal state sequence of length $2000$.</p>
 
 This provides a graphical summary of the information encoded in the transition matrix $A$. At each step of the sequence, the hidden state is more likely to remain the same than to switch to a different state. Moreover, lower state values are more likely than higher ones, as can be seen from Figure 2.
 
