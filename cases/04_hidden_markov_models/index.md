@@ -85,7 +85,7 @@ This problem is often ecountered in practise. All one is given is a sequence of 
 
 ## 2. Computations
 
-To illustrate the effectiveness of the HMM training algorithm, also known as the Baum–Welch algorithm, I present a concrete example implemented in Fortran. Consider the following scenario. There are two possibile hidden states ($N=2$). The observation vector is made of fuor labels ($M=4$) interpreted as follows:
+To illustrate the effectiveness of the HMM training algorithm, also known as the Baum–Welch algorithm, I present a concrete and widely cited example. Consider the following scenario. There are two possibile hidden states ($N=2$). The observation vector is made of fuor labels ($M=4$) interpreted as follows:
 
 -2 = large negative price difference,
 
