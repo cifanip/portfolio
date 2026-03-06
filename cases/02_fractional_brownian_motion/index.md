@@ -8,7 +8,7 @@ layout: default
 Many phenomena in nature, most prominently the motion of particles suspended in a quiescent medium, are well described by standard Brownian Motion $B_t$. While this is a good approximation in several instances, studies on random processes, e.g. turbulent flows
 and financial time series, have shown strong interdependence between distant samples. To this aim an extension was put forward in the seminal paper of Mandelbrot, 1968, where long-range dependence is regulated by the Hurst exponent $H \in (0,1)$. In the following, some basic results about Fractional Brownian Motion (FBM) and Fractional Brownian Noise (FBN) are illustrated with a focus on its implications for high-frequencies trading strategies. A recent application of FBM driven partciles and transport dynamics can be found in [^1]. 
 
-The numerical results were generated using in-house code provided at [FBM simulator](./code/).
+The numerical results were generated using in-house code provided at [FBM simulator](https://github.com/cifanip/quantitative-finance/tree/main/cases/02_fractional_brownian_motion/code).
 
 ## 1. Theory
 
