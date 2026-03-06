@@ -85,15 +85,15 @@ This problem is often ecountered in practise. All one is given is a sequence of 
 
 ## 2. Computations
 
-To illustrate the effectiveness of the HMM training algorithm, also known as the Baum–Welch algorithm, I present a concrete example implemented in Fortran. Consider the following scenario. There are two possibile hidden states ($N=2$), either $1$ or $2$. The observation vector is made of fuor labels ($M=4$) interpreted as follows:
+To illustrate the effectiveness of the HMM training algorithm, also known as the Baum–Welch algorithm, I present a concrete example implemented in Fortran. Consider the following scenario. There are two possibile hidden states ($N=2$). The observation vector is made of fuor labels ($M=4$) interpreted as follows:
 
-1 = large negative price difference,
+-2 = large negative price difference,
 
-2 = small negative price difference,
+-1 = small negative price difference,
 
-3 = small positive price difference,
+1 = small positive price difference,
 
-4 = large positive price difference.
+2 = large positive price difference.
 
 Such price difference discretization is easily realized by defining large and small differences compared to average returns in a given time period. This is all the input data the Baum–Welch algorithm requires to estimate the model parameters $\lambda$. 
 
@@ -131,13 +131,15 @@ B =
 \end{bmatrix}
 $$
 
-which is in good agreement with the given probability matrices. Once the model is known, one can find the optimal state sequence as described in Problem 2. This procedure is known as the Viterbi algorithm. Figure 2 shows a sequence of observations with the underlying optimal state sequence. The observation and state values have been adjusted so that their interpretation is clear from the context. 
+which is in good agreement with the given probability matrices. Once the model is known, one can find the optimal state sequence as described in Problem 2. This procedure is known as the Viterbi algorithm. Figure 2 shows a sequence of observations with the underlying optimal state sequence. The state values have been adjusted so that their interpretation is clear from the context. 
 
 <p align="center">
   <img src="figures/vit_seq.png" width="70%">
 </p>
 
 <p align="center"><b>Figure 2:</b> Observation values (blue dots) and corrisponding optimal state sequence (black dots).</p>
+
+
 
 
 [^1]: Stamp, M., 2004. A revealing introduction to hidden Markov models. Department of Computer Science San Jose State University.
