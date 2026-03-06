@@ -7,7 +7,7 @@ layout: default
 
 This page connects the fundamental concepts of option pricing and probability theory. A brief demonstration of how to compute the risk-neutral probability measure from data is provided. 
 
-The theory presented in these notes is based on the lecture notes Stochastic Calculus, Financial Derivatives and PDE's [^1], by prof. S. Calogero. They are intended as a condensed summary of the material, and any mistakes are my own.
+The theory presented in these notes is based on the lecture notes Stochastic Calculus, Financial Derivatives and PDE's [^1], by prof. S. Calogero. They are intended as a condensed summary of the material, and any mistakes are my own. I am grateful to the author for making this material publicly available.
 
 ## 1. Theory
 
