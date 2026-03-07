@@ -13,7 +13,9 @@ After introducing the fundamental concepts, a numerical example is presented to 
 
 ## 1. Theory
 
-The first concept needed is that of **homotopy**. The precise definition, given in [^1], is the following:
+### Homotopy
+
+The first concept needed is that of homotopy. The precise definition, given in [^1], is the following:
 
 **Definition 1 (Homotopy)**
 
@@ -37,7 +39,11 @@ As it turns out homotopy equivalent spaces have the same homology groups.
 
 ### Simplicial complexes and their constructions
 
+We will not delve into the precise definition of simplicial complexes and their construction. We refer the interested reader to [^1] or to the many textbooks on this subject. The rough idea is the following: a simplicial complex is a space obtained by gluing simplices (points, line segments, triangles, and their higher-dimensional analogues) along their faces. When a topological space admits such a triangulation, its topological invariants (e.g., homology groups) can be computed from the corresponding simplicial complex. 
 
+Since data are not given in the form of simplicial complexes, the preliminary step to computation is to construct such complexes. A widely used construction is the so-called **Rips complex**. 
+
+### Homology
 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
