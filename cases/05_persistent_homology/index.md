@@ -17,9 +17,13 @@ The first concept needed is that of **homotopy**. The precise definition, given 
 
 **Definition 1 (Homotopy)**
 
-Continuous maps $f,g: X \to Y$ between metric spaces $X$ and $Y$ are homeotopic, denoted by $f \simeq g$, if there exists a continuous deformation of $f$ into $g$. Such a deformation is called a homotopy. 
+Continuous maps $f,g: X \to Y$ between metric spaces $X$ and $Y$ are homeotopic, denoted $f \simeq g$, if there exists a continuous deformation of $f$ into $g$. Such a deformation is called a homotopy. 
 
+Next is the definition of homotopy equivalence.
 
+**Definition 2 (Homotopy equivalence)**
+
+Metric spaces $X$ and $Y$ are homotopy equivalent, denoted $X \simeq Y$, if there exist maps $f: X \to Y$ and $g:Y \to X$, sich that $f \circ g \simeq id_Y$ and $g \circ y \simeq id_X$. Such maps are called homotopy equivalences. 
 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
