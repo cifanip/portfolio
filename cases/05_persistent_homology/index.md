@@ -15,7 +15,7 @@ After introducing the fundamental concepts, a numerical example is presented to 
 
 The first concept needed is that of **homotopy**. The precise definition, given in [^1], is the following:
 
-**Definition 1**
+**Definition 1 (Homotopy)**
 
 Continuous maps $f,g: X \to Y$ between metric spaces $X$ and $Y$ are homeotopic, denoted by $f \simeq g$, if there exists a continuous deformation of $f$ into $g$. Such a deformation is called a homotopy. 
 
