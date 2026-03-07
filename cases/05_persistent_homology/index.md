@@ -15,6 +15,9 @@ After introducing the fundamental concepts, a numerical example is presented to 
 
 The first concept needed is that of **homotopy**. The precise definition, given in [^1], is the following:
 
+**Definition 1**
+Continuous maps $f,g: X \to Y$
+
 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
