@@ -35,7 +35,8 @@ The space $X$ is composed of one single point. The space $Y$ is composed of a (f
 
 As it turns out homotopy equivalent spaces have the same homology groups.
 
-### Simplicial complexes
+### Simplicial complexes and their constructions
+
 
 
 
