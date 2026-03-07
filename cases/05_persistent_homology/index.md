@@ -31,7 +31,7 @@ Metric spaces $X$ and $Y$ are homotopy equivalent, denoted $X \simeq Y$, if ther
 
 <p align="center"><b>Figure 1:</b> Example of homotopy and homotopy equivalence.</p>
 
-The space $X is compoed of one single point. The space $Y$ is composed of a (full) disk to which a line is attached and a point. 
+The space $X$ is compoed of one single point. The space $Y$ is composed of a (full) disk to which a line is attached and a point. The maps $f : X \to Y$ which sends $X$ into point $A$ in $Y$ is homotopic to the map $g : X \to Y$ that sends $X$ into point $B$ in $Y$. 
 
 
 [^1]: Virk, Ž., 2022. Introduction to Persistent Homology. Založba UL FRI.
